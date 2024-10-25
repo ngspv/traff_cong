@@ -1,0 +1,33 @@
+{
+  "dataset_name": "highways_week",
+  "description": "Highway traffic data around Astana with heavy congestion patterns",
+  "generated_at": "2025-09-18T00:56:17.853646",
+  "parameters": {
+    "center_lat": 51.1694,
+    "center_lon": 71.4491,
+    "radius_km": 15.0,
+    "num_roads": 25,
+    "start_date": "2025-09-11T00:56:15.549658",
+    "end_date": "2025-09-18T00:56:15.549659",
+    "frequency_minutes": 10
+  },
+  "statistics": {
+    "traffic_records": 25225,
+    "weather_records": 676,
+    "event_records": 14,
+    "date_range_days": 7,
+    "unique_roads": 25,
+    "congestion_distribution": {
+      "FREE_FLOW": 24776,
+      "LIGHT": 449
+    }
+  },
+  "files": {
+    "traffic_csv": "traffic_data.csv",
+    "weather_csv": "weather_data.csv",
+    "events_csv": "events_data.csv",
+    "traffic_parquet": "traffic_data.parquet",
+    "weather_parquet": "weather_data.parquet",
+    "events_parquet": "events_data.parquet"
+  }
+}

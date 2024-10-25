@@ -1,0 +1,33 @@
+{
+  "dataset_name": "small_test",
+  "description": "Small dataset for quick testing in Astana",
+  "generated_at": "2025-09-18T00:56:17.869322",
+  "parameters": {
+    "center_lat": 51.1694,
+    "center_lon": 71.4491,
+    "radius_km": 1.0,
+    "num_roads": 5,
+    "start_date": "2025-09-17T00:56:15.549660",
+    "end_date": "2025-09-18T00:56:15.549661",
+    "frequency_minutes": 60
+  },
+  "statistics": {
+    "traffic_records": 125,
+    "weather_records": 100,
+    "event_records": 2,
+    "date_range_days": 1,
+    "unique_roads": 5,
+    "congestion_distribution": {
+      "FREE_FLOW": 124,
+      "LIGHT": 1
+    }
+  },
+  "files": {
+    "traffic_csv": "traffic_data.csv",
+    "weather_csv": "weather_data.csv",
+    "events_csv": "events_data.csv",
+    "traffic_parquet": "traffic_data.parquet",
+    "weather_parquet": "weather_data.parquet",
+    "events_parquet": "events_data.parquet"
+  }
+}

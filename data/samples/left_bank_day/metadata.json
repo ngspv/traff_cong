@@ -1,0 +1,33 @@
+{
+  "dataset_name": "left_bank_day",
+  "description": "One day of high-resolution traffic data for Left Bank",
+  "generated_at": "2025-09-18T00:56:16.059013",
+  "parameters": {
+    "center_lat": 51.128,
+    "center_lon": 71.403,
+    "radius_km": 3.0,
+    "num_roads": 20,
+    "start_date": "2025-09-17T00:56:15.549655",
+    "end_date": "2025-09-18T00:56:15.549655",
+    "frequency_minutes": 5
+  },
+  "statistics": {
+    "traffic_records": 5780,
+    "weather_records": 100,
+    "event_records": 2,
+    "date_range_days": 1,
+    "unique_roads": 20,
+    "congestion_distribution": {
+      "FREE_FLOW": 5633,
+      "LIGHT": 147
+    }
+  },
+  "files": {
+    "traffic_csv": "traffic_data.csv",
+    "weather_csv": "weather_data.csv",
+    "events_csv": "events_data.csv",
+    "traffic_parquet": "traffic_data.parquet",
+    "weather_parquet": "weather_data.parquet",
+    "events_parquet": "events_data.parquet"
+  }
+}

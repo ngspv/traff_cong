@@ -1,0 +1,33 @@
+{
+  "dataset_name": "astana_week",
+  "description": "One week of traffic data for Astana city center",
+  "generated_at": "2025-09-18T00:56:15.949012",
+  "parameters": {
+    "center_lat": 51.1694,
+    "center_lon": 71.4491,
+    "radius_km": 5.0,
+    "num_roads": 30,
+    "start_date": "2025-09-11T00:56:15.549648",
+    "end_date": "2025-09-18T00:56:15.549653",
+    "frequency_minutes": 15
+  },
+  "statistics": {
+    "traffic_records": 20190,
+    "weather_records": 676,
+    "event_records": 14,
+    "date_range_days": 7,
+    "unique_roads": 30,
+    "congestion_distribution": {
+      "FREE_FLOW": 19868,
+      "LIGHT": 322
+    }
+  },
+  "files": {
+    "traffic_csv": "traffic_data.csv",
+    "weather_csv": "weather_data.csv",
+    "events_csv": "events_data.csv",
+    "traffic_parquet": "traffic_data.parquet",
+    "weather_parquet": "weather_data.parquet",
+    "events_parquet": "events_data.parquet"
+  }
+}

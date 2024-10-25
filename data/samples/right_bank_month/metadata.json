@@ -1,0 +1,33 @@
+{
+  "dataset_name": "right_bank_month",
+  "description": "One month of traffic data for Right Bank (new city)",
+  "generated_at": "2025-09-18T00:56:17.398438",
+  "parameters": {
+    "center_lat": 51.1805,
+    "center_lon": 71.446,
+    "radius_km": 8.0,
+    "num_roads": 50,
+    "start_date": "2025-08-19T00:56:15.549656",
+    "end_date": "2025-09-18T00:56:15.549657",
+    "frequency_minutes": 30
+  },
+  "statistics": {
+    "traffic_records": 72050,
+    "weather_records": 2884,
+    "event_records": 60,
+    "date_range_days": 30,
+    "unique_roads": 50,
+    "congestion_distribution": {
+      "FREE_FLOW": 70927,
+      "LIGHT": 1123
+    }
+  },
+  "files": {
+    "traffic_csv": "traffic_data.csv",
+    "weather_csv": "weather_data.csv",
+    "events_csv": "events_data.csv",
+    "traffic_parquet": "traffic_data.parquet",
+    "weather_parquet": "weather_data.parquet",
+    "events_parquet": "events_data.parquet"
+  }
+}

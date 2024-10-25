@@ -1,0 +1,41 @@
+{
+  "generation_completed_at": "2025-09-18T00:56:17.869804",
+  "total_datasets": 5,
+  "datasets": {
+    "astana_week": {
+      "path": "data/samples/astana_week",
+      "traffic_records": 20190,
+      "weather_records": 676,
+      "event_records": 14
+    },
+    "left_bank_day": {
+      "path": "data/samples/left_bank_day",
+      "traffic_records": 5780,
+      "weather_records": 100,
+      "event_records": 2
+    },
+    "right_bank_month": {
+      "path": "data/samples/right_bank_month",
+      "traffic_records": 72050,
+      "weather_records": 2884,
+      "event_records": 60
+    },
+    "highways_week": {
+      "path": "data/samples/highways_week",
+      "traffic_records": 25225,
+      "weather_records": 676,
+      "event_records": 14
+    },
+    "small_test": {
+      "path": "data/samples/small_test",
+      "traffic_records": 125,
+      "weather_records": 100,
+      "event_records": 2
+    }
+  },
+  "total_records": {
+    "traffic": 123370,
+    "weather": 4436,
+    "events": 92
+  }
+}
